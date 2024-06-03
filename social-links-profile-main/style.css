@@ -1,0 +1,44 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+body{
+    background-color: var(--OffBlack)!important;
+}
+*{
+    color: var(--White);
+    font-family: inter;
+}
+:root{
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+}
+@font-face {
+    font-family: inter;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+#container p, a{
+    font-size: 14px;
+}
+#container a{
+    text-decoration: none!important;
+    color: var(--White)!important;
+    background-color: var(--Grey);
+    width: 304px;
+    height: 45px;
+}
+
+#container{
+    background-color: var(--DarkGrey);
+    height: 612px;
+    width: 385px;
+}
+.container-img{
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    height: 156px;
+}
+#address{
+    color: var(--Green);
+}
