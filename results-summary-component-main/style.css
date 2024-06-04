@@ -17,7 +17,7 @@
     --Darkgrayblue: hsl(224, 30%, 27%);
 }
 .attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); font-size: 11px;}
 @font-face {
     font-family: hanken;
     src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
