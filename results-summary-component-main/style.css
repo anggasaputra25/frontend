@@ -32,3 +32,13 @@ button{
     background-color: var(--Darkgrayblue);
     font-weight: 500;
 }
+button:hover{
+    background: linear-gradient(var(--Lightslateblue), var(--Lightroyalblue));
+}
+
+@media screen and (max-width: 720px) {
+    .row {
+      border-radius: 0!important;
+      width: 100%!important;
+    }
+}

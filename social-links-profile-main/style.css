@@ -21,12 +21,18 @@ body{
 #container p, a{
     font-size: 14px;
 }
-#container a{
+#container button{
     text-decoration: none!important;
     color: var(--White)!important;
     background-color: var(--Grey);
-    width: 304px;
+    width: 80%;
     height: 45px;
+    font-weight: 600;
+    transition: all ease 0.5s;
+}
+#container button:hover{
+    background-color: var(--Green);
+    color: var(--DarkGrey)!important;
 }
 
 #container{
