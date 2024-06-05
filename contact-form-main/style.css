@@ -1,0 +1,57 @@
+:root{
+    --Green200: hsl(148, 38%, 91%);
+    --Green600: hsl(169, 82%, 27%);
+    --Red: hsl(0, 66%, 54%);
+    --White: hsl(0, 0%, 100%);
+    --Grey500: hsl(186, 15%, 59%);
+    --Grey900: hsl(187, 24%, 22%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); font-size: 11px;}
+@font-face {
+    font-family: karla;
+    src: url(assets/fonts/Karla-VariableFont_wght.ttf);
+}
+*{
+    font-family: karla;
+}
+label, p{
+    font-size: 16px;
+}
+body{
+    background-color: var(--Green200);
+}
+span{
+    color: var(--Green600);
+}
+label{
+    cursor: pointer;
+}
+input{
+    cursor: pointer;
+    height: 35px;
+}
+input:hover, textarea:hover{
+    border-color: var(--Green600);
+}
+input[type="radio"]:checked {
+    accent-color: var(--Green600)!important;
+}
+input[type="checkbox"]:checked {
+    accent-color: var(--Green600)!important;
+}
+.radio{
+    border-color: var(--Green600)!important;
+    background-color: var(--Green200);
+}
+button:hover{
+    background-color: var(--Grey900)!important;
+}
+#alert{
+    background-color: var(--Grey900);
+    top: 0;
+    transition: all ease 0.5s;
+}
+.animate{
+    margin-top: 20px;
+}
