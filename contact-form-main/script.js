@@ -10,6 +10,7 @@ const myCheckbox = document.getElementById("myCheckbox");
 const checkHelp = document.getElementById("checkHelp");
 const validHelp = document.getElementById("validHelp");
 const alert = document.getElementById("alert");
+const container = document.getElementById("container");
 
 radioBtn.forEach((e, key) => {
     e.addEventListener("click", () => {

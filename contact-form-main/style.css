@@ -29,7 +29,7 @@ label{
 }
 input{
     cursor: pointer;
-    height: 35px;
+    height: 49px;
 }
 input:hover, textarea:hover{
     border-color: var(--Green600);
@@ -54,4 +54,11 @@ button:hover{
 }
 .animate{
     margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    #container {
+      height: max-content;
+      width: 95%!important;
+      /* margin: 5px; */
+    }
 }
